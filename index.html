@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- Standard Meta -->
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+
+<link rel="image_src" type="image/jpeg" href="images/logo.png" />
+
+<!-- Site Properities -->
+<meta name="generator" content="DocPad v6.79.4" />
+<title>OpenWisp - Radius </title>
+
+<meta name="description" content="Semantic empowers designers and developers by creating a shared vocabulary for UI." />
+<meta name="keywords" content="html5, ui, library, framework, javascript" />
+
+<!-- EXTERNAL STYLE LINKS  -->
+<link rel="stylesheet" type="text/css" class="ui" href="dist/semantic.min.css">
+<link rel="stylesheet" type="text/css" href="stylesheets/docs.css">
+<link rel="stylesheet" type="text/css" href="stylesheets/rtl.css">
+<link rel="stylesheet" type="text/css" href="stylesheets/home.css">
+<link rel="stylesheet/less" type="text/css" href="src/definitions/elements/button.less" />
+
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','./www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-44039803-2', 'auto');
+  ga('send', 'pageview');
+</script>
+
+</head>
+<body id="example" class="index" ontouchstart="">
+
+  <div class="ui vertical inverted sidebar menu" id="toc">
+
+
+<!-- DRAWER   -->
+<div class="item">
+  <a class="ui logo icon image" href="index.html">
+    <img src="images/logo.png">
+  </a>
+  <a href="index.html"><b>OpenWisp Docs</b></a>
+</div>
+<div class="item">
+  <div class="menu">
+  </div>
+</div>
+  </div>
+</div>
+</div>
+<div class="ui black big launch right attached fixed button">
+  <i class="content icon"></i>
+  <span class="text">Menu</span>
+</div>
+  
+
+  <div class="pusher">
+    <div class="full height">
+      <div class="following bar">
+  <div class="ui container">
+    <div class="ui large inverted secondary network menu">
+      <div class="item">
+        <div class="ui logo shape">
+          <div class="sides">
+            <div class="active ui side">
+              <img class="ui image" src="images/logo.png">
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="view-ui item">
+        <i class="sidebar icon"></i> Menu
+      </a>
+      <div class="right menu">
+        <div class="item">
+          
+          <a class="twitter-share-button twitter" href="https://twitter.com/share" data-text="Semantic UI 2.0 is out!" data-url="http://semantic-ui.com" data-via="semanticui">
+          </a>
+          <script type="text/javascript">
+          window.twttr=(function(d,s,id){var t,js,fjs=d.getElementsByTagName(s)[0];if(d.getElementById(id)){return}js=d.createElement(s);js.id=id;js.src="./platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);return window.twttr||(t={_e:[],ready:function(f){t._e.push(f)}})}(document,"script","twitter-wjs"));
+          </script>
+          
+        </div>
+        <div class="ui language floating dropdown link item" id="languages">
+          <i class="world icon"></i>
+          <div class="text">English</div>
+          <div class="menu">
+            <div class="header">Search Languages</div>
+            <div class="ui icon search input">
+              <i class="search icon"></i>
+              <input type="text" placeholder="Search languages...">
+            </div>
+            <div class="scrolling menu">
+  <div class="item" data-percent="100" data-value="en" data-english="English">
+    <span class="description">English</span>
+    English
+  </div>
+  <div class="item" data-percent="94" data-value="da" data-english="Danish">
+    <span class="description">dansk</span>
+    Danish
+  </div>
+  <div class="item" data-percent="94" data-value="es" data-english="Spanish">
+    <span class="description">Español</span>
+    Spanish
+  </div>
+  <div class="item" data-percent="34" data-value="zh" data-english="Chinese">
+    <span class="description">简体中文</span>
+    Chinese
+  </div>
+  <div class="item" data-percent="54" data-value="zh_TW" data-english="Chinese (Taiwan)">
+    <span class="description">中文 (臺灣)</span>
+    Chinese (Taiwan)
+  </div>
+  <div class="item" data-percent="0"  data-value="ro" data-english="Romanian">
+    <span class="description">românește</span>
+    Romanian
+  </div>
+</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- TOP BANNER  --> 
+ <img class="ui fluid image" src="./images/openwispcover.jpg">
+<!--- END OF TOP BANNER   -->
+
+
+<!-- OPENWISP RADIUS  -->
+
+<div class="ui vertical stripe intro segment">
+  <div class="ui stackable very relaxed center aligned grid container">
+    <div class="row"> 
+      <div class="twelve wide column">
+        <img class="ui centered small fluid image " src="images/devices.png">
+        <h1 class="ui header"> OpenWisp - Radius </h1>
+        <p> The new openwisp module which provides a web interface and RESTful API to manage freeradius. <br> OpenWisp - Radius utilises the django - freeradius module inorder to achieve the 
+        task of providing a web controller  for managing RADIUS databases  </p>
+          <a class="ui large primary button" href="usage/layout.html">
+            See Installation Guide
+            <i class="right chevron icon"></i>
+          </a>
+      </div>
+    </div>
+  </div>
+<div class="ui divider"></div>
+
+<!-- freeradius EXPLANATION  -->
+<div class="ui stripe vertical segment">
+  <div class="ui stackable very relaxed grid container">
+    <div class="fourteen wide center aligned centered column">
+      <h1 class="ui icon header">
+        <img src="images/icons/freeradius.png" class="ui icon image">
+       FreeRadius 
+      </h1>
+      <p> FreeRADIUS is a RADIUS server which was designed in the early 90’s  to encourage community networks. FreeRadius with it’s modular and scalable design, supports all common authentication protocols and over time, FreeRadius has become Opensourced. Due to it’s ability to support Virtual Servers, Freeradius has been ranked as the most used Radius Server.  In a bid to  make operations easier, it has a default  PHP – based web user administration tool called Dialupadmin. </p>
+      <a class="ui large primary button" href="usage/layout.html">
+        See Installation Guide
+        <i class="right chevron icon"></i>
+      </a>
+    </div>
+
+<!-- DIFFERENCE  -->  
+  <div class=" ui segment ">
+  
+      <p>  OpenWisp - Radius is blaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa of django - FreeRadius is aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa </p>     
+      
+  </div>
+
+
+<!-- Motivation  -->
+  <div class="piled example">
+    <div class="ui piled segment">
+      <h3 class="ui header">
+           <a href="https://django-freeradius.readthedocs.io/en/latest/general/goals.html" class="aligned center">  Motivation and Goals </a>
+        </h3>
+      <p> After Running the OpenWisp1 with it's freeradius module for years, the following reasons made OpenWisp Team see the glaring need for an immediate update </p>
+      <li> Lack of a flexible codebase which could acomodate little changes  </li>
+      <li> The existing codebase made it difficult to meet international standards  </li>
+      <li> The documentation provided no help for those who had issues with installing the software on their machines </li>
+    
+      <p> The OpenWisp Team however identified the aim of the new release as to <br> <i><b>"Offer a web application and documentation that helps people from all over the world to implement a wifi network that can use freeradius to authenticate its users, either via captive portal authentication or WPA2 enterprise".</b></i> </p> 
+      
+      <p> OpenWisp2 shall have an improved performance as we work hard to overhaul our entire codebase and apply all the UNIX philosophies  </p>
+      <p> This is just a summary of the goals and motivation, please visit <a href="https://django-freeradius.readthedocs.io/en/latest/general/goals.html"> OpenWisp Motivation and Goals </a>  for the full account on the Goals and Motivation of the new release </p>  
+    </div>
+  </div>
+
+<!--  FEATURES OF OPENWISP   -->
+
+<div class="ui segment">
+ <h3 class="ui  aligned">
+    <i>Features of OpenWisp - Radius  </i>
+   </h3> <hr> <br>
+   <p> Since it's launch in {{     }}, the openwisp - Radius module has been utilized by all OpenWisp users due to it's outstanding features which were designed make openwisp easier to use.    </p>
+
+   <br> <img class="ui centered meduim image" src="./images/wireframe/text-image.png">
+  <p><li> Te eum doming  definiebas in. Vim dolorum definiebas an.  iisque. </li></p>
+  
+<br> <img class="ui centered meduim image" src="./images/wireframe/text-image.png">
+  <p>Eu quo homero blandit intellegebat. Incorrupte consequuntur mei id. Mei ut facer dolores adolescens, no illum aperiri quo, usu odio brute at. Qui te porro electram, ea dico facete utroque quo. Populo quodsi te eam, wisi everti eos ex, eum elitr altera utamur at. Quodsi convenire mnesarchum eu per, quas minimum postulant per id.</p>
+
+</div>
+ 
+
+<!--  ACTIVITIES  -->
+ 
+<div class="ui divider"></div>
+<table class="ui celled striped table">
+  <thead>
+    <tr class="center aligned"><th colspan="115">
+        Recent Updates 
+    </th>
+  </tr></thead>
+  <tbody>
+    <tr>
+      <td class="collapsing">
+        node_modules
+      </td>
+      <td>Initial commit</td>
+      <td class="right aligned collapsing">10 hours ago</td>
+    </tr>
+    <tr>
+      <td>
+        test
+      </td>
+      <td>Initial commit</td>
+      <td class="right aligned">10 hours ago</td>
+    </tr>
+    <tr>
+      <td>
+       build
+      </td>
+      <td>Initial commit</td>
+      <td class="right aligned">10 hours ago</td>
+    </tr>
+    <tr>
+      <td>
+          package.json
+      </td>
+      <td>Initial commit</td>
+      <td class="right aligned">10 hours ago</td>
+    </tr>
+    <tr>
+      <td>
+         Gruntfile.js
+      </td>
+      <td>Initial commit</td>
+      <td class="right aligned">10 hours ago</td>
+    </tr>
+  </tbody>
+</table>
+
+
+<!--  FEATURES OF OPENWISP - RADIUS  -->
+<div class="feature alternate ui stripe vertical segment">
+<br>
+  <div class="ui two column center aligned divided relaxed stackable grid container">
+    <div class="row">
+      <div class="column">
+        <h2 class="ui icon header">
+          <img class="ui icon image" src="images/github.png">
+         Make Contributions  
+        </h2>
+
+        <p> OpenWisp is completely opensourced. We therefore welcome external contribution from those who wish to help us grow.  </p>
+        <P>  Read the Contributions guide <a> here </a> before making an attempt at contributing to openwisp  </p>
+        <a class="ui large button" href="usage/theming.html">Contribute </a>
+       </div>
+ 
+
+      
+      <div class="column">
+        <h2 class="ui icon header">
+          <img class="ui icon image" src="images/github.png">
+          46+ Repositories  
+        </h2>
+        <p>
+          The OpenWisp Team works tirelessly to improve the entire codebase. <br> Would you like to have a glance at our public repositories and star them?
+        </p>
+        <a href="https://github.com/openwisp" class="ui large button">Visit GitHub</a>
+      </div>
+    </div>
+  </div>
+</div>
+ 
+ 
+<div class="ui  vertical footer segment">
+    <br>  <br>  
+    <div class="ui section divider"></div>
+
+  <div class="ui center aligned container">
+    <div class="ui stackable grid">
+      <div class="three wide column">
+          <br>
+        <h4 class="ui header">How To's</h4>
+        <div class="ui link list">
+          <a class="item" href="/" target="_blank">Getting Started</a>
+          <a class="item" href="" target="_blank">Troubleshooting</a>
+          <a class="item" href="" target="_blank">Mail us </a>
+        </div>
+      </div>
+
+      <div class="three wide column">
+          <br>
+        <div class="ui link list">
+          <a class="item" href=""  target="_blank">GitHub Repo</a>
+          <a class="item" href="" target="_blank">User Forums</a>
+          <a class="item" href="">1.x Docs</a>
+          <a class="item" href="">0.x Docs</a>
+        </div>
+      </div>
+
+      <div class="seven wide right floated column">
+        <h4 class="ui header">Help Us Grow</h4>
+        <p> You can help us grow by making contributions, reporting issues and adding to the docs  </p>
+        <form action="" method="post" target="_top">
+          <input type="hidden" name="cmd" value="_s-xclick">
+          <input type="hidden" name="hosted_button_id" value="7ZAF2Q8DBZAQL">
+          <button type="submit" class="ui large teal button" > Visit GitHub </button>
+        </form>
+      </div>
+    </div>
+    <div class="ui section divider"></div>
+    <img src="./images/logo.png" class="ui centered mini image">
+    <div class="ui horizontal small divided link list">
+      <a class="item" href="" target="_blank">Free & Open Source </a>
+    </div>
+  </div>
+</div>
+
+
+  <!-- INLINE JAVASCRIPT   -->
+ 
+ 
+  <script>
+  (function () {
+    var
+      eventSupport = ('querySelector' in document && 'addEventListener' in window)
+      jsonSupport  = (typeof JSON !== 'undefined'),
+      jQuery       = (eventSupport && jsonSupport)
+        ? './javascript/library/jquery.min.js'
+        : './javascript/library/jquery.legacy.min.js'
+    ;
+    document.write('<script src="' + jQuery + '"><\/script>');
+  }());
+  </script>
+  
+<script type="text/javascript">
+  window.liveSettings = {
+    api_key    : '9ede3015b9f84c1aabc81ab839c55d74',
+    parse_attr : [
+      'data-title',
+      'data-content'
+    ],
+    detectlang   : false,
+    autocollect  : true,
+    ignore_tags  : ['i', 'code', 'pre'],
+    parse_attr   : ['data-title', 'data-content', 'data-text'],
+    ignore_class : ['code', 'anchor']
+  };
+</script>
+
+<script type="text/javascript" src="./cdn.transifex.com/live.js"></script>
+  <script src="./javascript/library/highlight.min.js"></script>
+<script src="./dist/semantic.min.js"></script>
+  <script src="./javascript/docs.js"></script>
+  <script src="./javascript/home.js"></script>
+  <script>
+window.less = {
+  async        : true,
+  environment  : 'production',
+  fileAsync    : false,
+  onReady      : false,
+  useFileCache : true
+};
+</script>
+<script src="./javascript/library/less.min.js"></script>
+
+    </body>
+</html>
